@@ -15,7 +15,7 @@
 String num = request.getParameter("num");
 %>
 
-<center><font size='3'><b>ºñ¹Ğ¹øÈ£ È®ÀÎ</b></font>                                                
+<center><font size='3'><b>ë¹„ë°€ë²ˆí˜¸ í™•ì¸</b></font>                                                
 
 <TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
 	<TR>
@@ -30,11 +30,11 @@ String num = request.getParameter("num");
 <TABLE border='0' width='300' align='center'>
  	<TR>
          	<TD align='center'>
-            		<font size=2><B>ºñ¹Ğ¹øÈ£</B></font>
+            		<font size=2><B>ë¹„ë°€ë²ˆí˜¸</B></font>
 	 	</TD>
 	 	<TD>
             		<input type='password' name='pass' size=20 maxlength=20>
-            		<input type='submit' value=' È® ÀÎ ' style='background-color:cccccc; font-weight:bolder'>
+            		<input type='submit' value=' í™• ì¸ ' style='background-color:cccccc; font-weight:bolder'>
 	 	</TD>
       	</TR>
 </TABLE>
@@ -46,7 +46,7 @@ String num = request.getParameter("num");
  	</TR>
 </TABLE>                    
 
-<center><a href='member_out4.jsp'>[¸ñ·Ï º¸±â]</a></center>      
+<center><a href='member_out4.jsp'>[ëª©ë¡ ë³´ê¸°]</a></center>      
 
 </FORM>
 </body>
