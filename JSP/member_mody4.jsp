@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>¼öÁ¤Áß</title>
+<title>ìˆ˜ì •ì¤‘</title>
 </head>
 <body>
 <%@ page import = "java.sql.*, java.util.*" %>
@@ -14,26 +14,26 @@
 function Check()
 {
 if (Modify.name.value.length < 1) {
-	alert("ÀÛ¼ºÀÚ¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	alert("ì‘ì„±ìë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	Modify.name.focus(); 
         return false;
 	}
 
 if (Modify.pass.value.length < 1) {
-	alert("ºñ¹Ğ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	alert("ë¹„ë°€ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	Modify.pass.focus(); 
 	return false;
 	}
 
 if (Modify.addr.value.length <1 )
 	{ 
-		alert("ÁÖ¼Ò¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		alert("ì£¼ì†Œë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		Modify.addr.focus();
 		return false;
 	}
 
 if (Modify.tel.value.length < 1) {
-	alert("ÀüÈ­¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+	alert("ì „í™”ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 	Modify.tel.focus(); 
 	return false;
         }
@@ -77,7 +77,7 @@ String addr = rs.getString("addr");
 String tel = rs.getString("tel");
 %>
                    
-<center><font size='3'><b> ¼öÁ¤ </b></font>                  
+<center><font size='3'><b> ìˆ˜ì • </b></font>                  
 
 <TABLE border='0' width='600' cellpadding='0' cellspacing='0'>
 	<TR>
@@ -92,25 +92,25 @@ String tel = rs.getString("tel");
 <TABLE border='0' width='600'>
 	<TR>
 		<TD width='100' bgcolor='cccccc'>
-			<font size='2'><center><b>ÀÛ¼ºÀÚ</b></center></font> 
+			<font size='2'><center><b>ì‘ì„±ì</b></center></font> 
 		</TD>
 		<TD>
-			<p><input type='text' size='12' name='name' value="<%=name %>"> * ÇÊ¼ö </p>
+			<p><input type='text' size='12' name='name' value="<%=name %>"> * í•„ìˆ˜ </p>
 		</TD>
 	</TR>
 
 	<TR>
 		<TD width='100' bgcolor='cccccc'>
-			<font size='2'><center><b>ºñ¹Ğ¹øÈ£</b></center></font>
+			<font size='2'><center><b>ë¹„ë°€ë²ˆí˜¸</b></center></font>
 		</TD>
 		<TD>
-			<p><input type='password' size='12' name='pass'> * ÇÊ¼ö </p>
+			<p><input type='password' size='12' name='pass'> * í•„ìˆ˜ </p>
 		</TD>
 	</TR>
 
 	<TR>
 		<TD width='100' bgcolor='cccccc'>
-			<font size='2'><center><b>ÁÖ¼Ò</b></center></font>
+			<font size='2'><center><b>ì£¼ì†Œ</b></center></font>
 		</TD>
 		<TD>
 			<font size='2'><input type='text' size='40' maxlength='50' name='addr' value="<%=addr %>"></font>
@@ -125,7 +125,7 @@ String tel = rs.getString("tel");
 
 	<TR>
 		<TD width='100' bgcolor='cccccc'>
-			<font size='2'><center><b>ÀüÈ­¹øÈ£</b></center></font>
+			<font size='2'><center><b>ì „í™”ë²ˆí˜¸</b></center></font>
 		</TD>
 		<TD>
 			<font size='2'><input type='text' size='70' maxlength='50' name='tel' value="<%=tel %>"></font>
@@ -142,10 +142,10 @@ String tel = rs.getString("tel");
 		<TABLE>
 			<TR>
 				<TD width='200' align='center'>
-					<input Type = 'Reset' Value = '´Ù½Ã ÀÛ¼º'>
+					<input Type = 'Reset' Value = 'ë‹¤ì‹œ ì‘ì„±'>
 				</TD>
 				<TD width='200' align='center'>
-					<input Type = 'Button' Value = '¼ö Á¤ ¿Ï·á' Name='Page' onClick='Check();'>
+					<input Type = 'Button' Value = 'ìˆ˜ ì • ì™„ë£Œ' Name='Page' onClick='Check();'>
 				</TD>
 				
 			</TR>
@@ -157,9 +157,9 @@ String tel = rs.getString("tel");
 
 <%
 }catch(SQLException e){
-   	out.print("SQL¿¡·¯ " + e.toString());
+   	out.print("SQLì—ëŸ¬ " + e.toString());
 }catch(Exception ex){
-   	out.print("JSP¿¡·¯ " + ex.toString());
+   	out.print("JSPì—ëŸ¬ " + ex.toString());
 }finally{  
 	rs.close();
 	pstmt.close();
