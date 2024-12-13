@@ -9,16 +9,16 @@
 <body>
 
 <%@ page import = "java.sql.*" %>
-<h3>╟Ёюна╓╨╦ х╝юн </h3>
+<h3>Й╟°Л²╦Л═∙КЁ╢ М≥∙Л²╦ </h3>
 <br><br>
-<a href='member4.html'>[╣Н╥ого╠Б]</a>
+<a href='member4.html'>[К⌠╠К║²М∙≤Й╦╟]</a>
 
 <TABLE border="1" width=600 cellpadding="5">
 <TR align=center bgcolor=pink>
-	<TD> ╧Ьхё </TD>
-	<TD> юл╦╖ </TD>
-	<TD> аж╪р </TD>
-	<TD> ©╛╤ТцЁ </TD>
+	<TD> К╡┬М≤╦ </TD>
+	<TD> Л²╢К╕└ </TD>
+	<TD> Лё╪Л├▄ </TD>
+	<TD> Л≈╟К²╫Л╡≤ </TD>
 </TR>
 <%
 
