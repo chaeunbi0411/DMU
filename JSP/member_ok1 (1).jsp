@@ -33,9 +33,9 @@ stmt.executeUpdate(strSQL);
 
 %>
 
-¼º°øÀûÀ¸·Î ÀúÀåµÇ¾ú½À´Ï´Ù.
+ì„±ê³µì ìœ¼ë¡œ ì €ìž¥ë˜ì—ˆìŠµë‹ˆë‹¤.
 <br><br>
-<a href="member_output1.jsp">°á°úÈ®ÀÎ</a>
+<a href="member_output1.jsp">ê²°ê³¼í™•ì¸</a>
 
 </body>
 </html>
